@@ -1,0 +1,90 @@
+.main {
+  &__content {
+    padding: 20px 200px;
+    background-color: rgb(229, 223, 223);
+
+    @media only screen and (min-width: 280px) and (max-width: 574px) {
+      padding: 10px 15px;
+    }
+
+    &__backBtn {
+      > button {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-weight: 500;
+        background-color: rgb(55, 51, 51);
+        color: #ffffff;
+        border: none;
+
+        @media only screen and (min-width: 280px) and (max-width: 574px) {
+          padding: 5px 8px;
+          font-size: 10px;
+        }
+      }
+    }
+    &__heading {
+      > h1 {
+        font-size: 50px;
+        margin: 30px 0px;
+        border-left: 5px solid;
+        padding-left: 10px;
+
+        @media only screen and (min-width: 280px) and (max-width: 574px) {
+          font-size: 20px;
+          margin: 15px 0;
+          border-left: 3px solid;
+        }
+      }
+      > h5 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+        @media only screen and (min-width: 280px) and (max-width: 574px) {
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &__img {
+      height: 300px;
+      width: 400px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
+
+      @media only screen and (min-width: 280px) and (max-width: 574px) {
+        height: auto;
+        width: auto;
+        margin-bottom: 20px;
+      }
+
+      > img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &__details {
+      > p {
+        font-size: 25px;
+        line-height: 35px;
+
+        @media only screen and (min-width: 280px) and (max-width: 574px) {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+    }
+
+    &__link {
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+
+      @media only screen and (min-width: 280px) and (max-width: 574px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
